@@ -3,7 +3,7 @@ from flask import Blueprint
 
 from models.Names import Names
 
-from db import conn
+from backend.models.db import conn
 
 bp = Blueprint('commands', __name__)
 
